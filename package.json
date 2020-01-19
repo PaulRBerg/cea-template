@@ -1,0 +1,37 @@
+{
+  "name": "@project/monorepo",
+  "description": "Create Ethereum-powered React apps with one command",
+  "version": "1.0.0",
+  "bugs": {
+    "url": "https://github.com/sablierhq/create-eth-app/issues"
+  },
+  "homepage": "https://github.com/sablierhq/create-eth-app#readme",
+  "keywords": [
+    "ethereum",
+    "react",
+    "workspaces",
+    "yarn"
+  ],
+  "private": true,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sablierhq/create-eth-app"
+  },
+  "scripts": {
+    "react-app:build": "yarn workspace @project/react-app build",
+    "react-app:eject": "yarn workspace @project/react-app eject",
+    "react-app:start": "yarn workspace @project/react-app start",
+    "react-app:test": "yarn workspace @project/react-app test",
+    "subgraph:codegen": "yarn workspace @project/subgraph codegen",
+    "subgraph:build": "yarn workspace @project/subgraph build"
+  },
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/@graphprotocol/graph-ts",
+      "**/@graphprotocol/graph-ts/**"
+    ]
+  }
+}

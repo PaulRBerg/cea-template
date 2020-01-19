@@ -1,0 +1,3 @@
+## @project/contracts
+
+Lorem ipsum.
