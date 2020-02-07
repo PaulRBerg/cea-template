@@ -1,9 +1,13 @@
 This project was bootstrapped with [Create Eth App](https://github.com/sablierhq/create-eth-app).
 
+## Folder Structure
+
+(Project structure)
+
 ## Available Scripts
 
-Lorem ipsum.
+**`yarn start`**
 
-## Caveats
+Runs the app in development mode on http://localhost:3000 in the browser.
 
-Make sure that all packages share the same React version.
+(Further commands)
