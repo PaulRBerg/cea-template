@@ -21,4 +21,5 @@ yarn-debug.log*
 yarn-error.log*
 
 # subgraph
+/packages/subgraph/src/build/
 /packages/subgraph/src/types/

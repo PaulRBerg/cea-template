@@ -6,7 +6,7 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
-// You should drop this uri into a .env file
+// You should replace this uri with your own and put it into a .env file
 const client = new ApolloClient({
   uri: 'https://api.thegraph.com/subgraphs/name/paulrberg/create-eth-app',
 });
