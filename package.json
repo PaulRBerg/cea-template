@@ -25,8 +25,5 @@
       "**/@graphprotocol/graph-ts",
       "**/@graphprotocol/graph-ts/**"
     ]
-  },
-  "dependencies": {
-    "openzeppelin-solidity": "^2.5.0"
   }
 }

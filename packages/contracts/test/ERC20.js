@@ -1,14 +1,14 @@
 /* global assert, artifacts, contract, web3 */
 const {toWei} = require("web3-utils");
 
-const ERC20 = artifacts.require("ERC20");
+const ERC20Mintable = artifacts.require("ERC20Mintable");
 
-contract("ERC20", (accounts) => {
+contract("ERC20Mintable", (accounts) => {
   const owner = accounts[0];
   let token = {};
 
   beforeEach(async () => {
-    token = await ERC20.new({from: owner});
+    token = await ERC20Mintable.new({from: owner});
     await token.mint(accounts[0], toWei("1000"));
   });
 
