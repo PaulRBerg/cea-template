@@ -44,7 +44,7 @@ function App() {
         <p>
           Edit <code>packages/react-app/src/App.js</code> and save to reload.
         </p>
-        <button onClick={() => readOnchainBalance()}>
+        <button onClick={() => readOnchainBalance()} style={{ display: "none" }}>
           Read On-Chain Balance
         </button>
         <a
