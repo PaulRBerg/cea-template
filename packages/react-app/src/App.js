@@ -1,5 +1,4 @@
 import React from 'react';
-import logo from './ethereumLogo.png';
 import { addresses, abis } from '@project/contracts';
 import { gql } from 'apollo-boost';
 import { ethers } from 'ethers';
@@ -40,7 +39,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="react-logo" />
+        
+        {/* 3D Ethereum logo from https://codepen.io/Red5Point1/pen/OZOWNw */}
+        <div id="space">
+          <div class="elogo">
+            <div class="trif u1"></div>
+            <div class="trif u2"></div>
+            <div class="trif u3"></div>
+            <div class="trif u4"></div>
+            <div class="ct"></div>
+            <div class="trif l1"></div>
+            <div class="trif l4"></div>
+          </div>
+        </div>
         <p>
           Edit <code>packages/react-app/src/App.js</code> and save to reload.
         </p>
