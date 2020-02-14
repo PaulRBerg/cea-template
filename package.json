@@ -15,7 +15,8 @@
     "react-app:start": "yarn workspace @project/react-app start",
     "react-app:test": "yarn workspace @project/react-app test",
     "subgraph:codegen": "yarn workspace @project/subgraph codegen",
-    "subgraph:build": "yarn workspace @project/subgraph build"
+    "subgraph:build": "yarn workspace @project/subgraph build",
+    "subgraph:deploy": "yarn workspace @project/subgraph deploy"
   },
   "workspaces": {
     "packages": [
