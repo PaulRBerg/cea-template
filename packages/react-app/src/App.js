@@ -49,20 +49,20 @@ function App() {
         </button>
         <a
           className="App-link"
+          href="https://ethereum.org/developers/#getting-started"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn Ethereum
+        </a>
+        <a
+          className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
           style={{ marginTop: "0px" }}
         >
           Learn React
-        </a>
-        <a
-          className="App-link"
-          href="https://ethereum.org/developers/#getting-started"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn Ethereum
         </a>
         <a
           className="App-link"
