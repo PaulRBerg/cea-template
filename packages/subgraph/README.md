@@ -55,7 +55,7 @@ Also consider joining [The Graph Discord server](https://discord.gg/vtvv7FP), wh
 ### Failed to Compile
 
 > ✖ Failed to compile subgraph: Failed to compile data source mapping: Import file 'src/types/schema.ts' not found.
-Error: Failed to compile data source mapping: Import file 'src/types/schema.ts' not found.
+> Error: Failed to compile data source mapping: Import file 'src/types/schema.ts' not found.
 
 Run the `yarn subgraph` and this error will go away.
 

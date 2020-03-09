@@ -1,6 +1,5 @@
 {
   "name": "@project/monorepo",
-  "description": "Create Ethereum-powered React apps with one command",
   "version": "1.0.0",
   "keywords": [
     "ethereum",

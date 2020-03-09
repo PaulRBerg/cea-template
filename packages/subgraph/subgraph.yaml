@@ -15,7 +15,7 @@ dataSources:
       apiVersion: 0.0.3
       abis:
         - name: erc20
-          file: ./abis/erc20.json
+          file: ../contracts/src/abis/erc20.json
       entities:
         - Token
         - Transfer
