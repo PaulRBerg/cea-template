@@ -1,3 +1,9 @@
+## Warning :warning:
+
+**Starting with [v1.2.0](https://github.com/paulrberg/create-eth-app/releases/tag/v1.0.0), Create Eth App stopped downloading the default template from this repository. However, to ensure backwards compatibility, I won't archive or delete it.**
+
+---
+
 This project was bootstrapped with [Create Eth App](https://github.com/paulrberg/create-eth-app).
 
 ## Project Structure
